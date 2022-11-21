@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221107 19:26:15.662" rpa="false" schemaversion="3">
+<suite id="s1" name="Abc" source="C:\Users\mahek\PycharmProjects\shortcodes\Abc.robot">
+<test id="s1-t1" name="This is sample test case" line="7">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://demo.nopcommerce.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221107 19:26:15.812" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<status status="PASS" starttime="20221107 19:26:15.812" endtime="20221107 19:26:18.358"/>
+</kw>
+<doc>Google test</doc>
+<tag>regression</tag>
+<status status="PASS" starttime="20221107 19:26:15.812" endtime="20221107 19:26:18.358"/>
+</test>
+<status status="PASS" starttime="20221107 19:26:15.662" endtime="20221107 19:26:18.358"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Abc">Abc</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
