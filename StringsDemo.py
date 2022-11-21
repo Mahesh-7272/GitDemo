@@ -6,3 +6,7 @@ print(str,str1 )
 
 str4="  mahesh  "
 print(str4.lstrip())
+
+
+
+print("this is tha new update")
